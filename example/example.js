@@ -1,6 +1,6 @@
-var remapContent = require("../lib/remapContent.js");
+var contentMapper = require("../lib/contentMapper.js");
 
-remapContent("http://www.reddit.com",{
+contentMapper("http://www.reddit.com",{
 		mappingFn:function($){
 			return {headline: $('.content .spacer:last .entry:first a:first').text()};
 		},

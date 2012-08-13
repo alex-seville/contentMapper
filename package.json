@@ -1,7 +1,7 @@
 {
-  "name": "remapContent",
+  "name": "contentMapper",
   "version": "1.0.0",
-  "main": "lib/remapContent.js",
+  "main": "lib/contentMapper.js",
   "dependencies": {
     "request": "*",
     "underscore": "*",
@@ -14,10 +14,10 @@
     "node": ">=0.8"
   },
   "author": "Alex Seville",
-  "description": "remap content from one file to another via a template",
+  "description": "map content from one file to another via a template",
   "repository": {
     "type": "git",
-    "url": "git://github.com/alex-seville/remapContent.git"
+    "url": "git://github.com/alex-seville/contentMapper.git"
   },
   "license": "BSD",
   "scripts": {
