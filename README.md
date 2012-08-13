@@ -1,4 +1,4 @@
-grunt-parsePage
-===============
+## remap content
 
-Parse a html page and output via a template
+For taking elements from one file and mapping them to another, via a template.
+

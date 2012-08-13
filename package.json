@@ -1,0 +1,26 @@
+{
+  "name": "remapContent",
+  "version": "1.0.0",
+  "main": "lib/remapContent.js",
+  "dependencies": {
+    "request": "*",
+    "underscore": "*",
+    "jsdom": "*"
+  },
+  "devDependencies": {
+    "vows": "*"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "author": "Alex Seville",
+  "description": "remap content from one file to another via a template",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alex-seville/remapContent.git"
+  },
+  "license": "BSD",
+  "scripts": {
+    "test": "tap test/*.js"
+  }
+}
