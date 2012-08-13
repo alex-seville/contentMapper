@@ -20,9 +20,12 @@ var templateFcn = function(){
 contentMapper(contentUrl, {  
   mappingFn: mappingFcn,  
   template: templateFcn  
-},function(err,res){ console.log(res); });  `  
+},function(err,res){ console.log(res); });  
+`
   
 
 ##Install
+
+I need to clean things up before I put it in npm.
 
 
