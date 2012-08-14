@@ -1,5 +1,5 @@
 {
-  "name": "contentMapper",
+  "name": "contentmapper",
   "version": "1.0.0",
   "main": "lib/contentMapper.js",
   "dependencies": {

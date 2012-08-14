@@ -26,6 +26,6 @@ contentMapper(contentUrl, {
 
 ##Install
 
-`npm install contentMapper`  
+`npm install contentmapper`  
 
 
