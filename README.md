@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/alex-seville/contentMapper.png)](http://travis-ci.org/alex-seville/contentMapper)
 #Content Mapper
 ===============
 
