@@ -5,6 +5,7 @@ var vows = require('vows'),
 
 // Create a Test Suite
 vows.describe('remap, arguments').addBatch({
+    /*
     'when calling remap with null inputfile': {
         topic: function () {
 			contentMapper(null, this.callback);
@@ -72,6 +73,24 @@ vows.describe('remap, arguments').addBatch({
         },
         'we get an error':  function (err) {
             assert.isNotNull(err);
+        }
+    },
+    */
+    'when we provide a good url path, and a mapper, we want the rawData': {
+        topic: function () {
+            function mapper($,rawData){
+                return {content: rawData};
+            }
+            contentMapper({
+                inputfile: "http://www.google.ca",
+                mappingFn:mapper,
+                template: "/../test/fixtures/blank.htm"
+            },this.callback);
+        },
+        'we get no error and the whole content back':  function (err,stat) {
+            assert.isNull(err);
+            assert.isNotNull(stat);
+            assert.equal(stat.length > 10,true);
         }
     }
 }).export(module);
