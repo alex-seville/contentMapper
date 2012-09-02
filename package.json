@@ -1,6 +1,6 @@
 {
   "name": "contentmapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/contentMapper.js",
   "dependencies": {
     "request": "*",
